@@ -1,0 +1,141 @@
+
+var : Varialble can be re-declared and updated. A globle scope variable. (Before 2015)
+
+let : Variable cannot be re-declared but can be updated. A block scope variable.
+
+const: Variable cannot be re-declared or updated. A block scope variable.
+
+when a variable declared and not assign any value to it using 'let' then if we console that variable we will get undefined but in case of using const we will get error like 'missing initializer in const declaration' .
+
+We cannot change value of const variable but we can change const object's key value.
+
+Use == when you want to compare values regardless of their type, but be cautious about unintended type coercion.
+
+Use === when you want to ensure that both the type and value are the same, which is generally recommended to avoid bugs in your code.
+
+for-of loop is help us to iterate over strings and arrays.
+
+let str="bsfdhbhs";
+for(let i of str){
+	console.log(i);
+}
+
+for-in loop is used for iterate over object
+
+const student ={
+	name : "Harshit",
+	age:67
+	
+};
+
+for(let i in student){
+	console.log(i); // it will return key (name,age)
+	console.log(student[i]); // will return value (Harshit, 67)
+}
+
+
+
+Object Creation : 1. Factory Function
+		  2. Construction Function
+
+
+1. Factory Function: A factory function in JavaScript is a function that returns an object, allowing you to create multiple instances of objects without using classes or the new keyword.
+
+Key Characteristics of a Factory Function:
+
+a. Creates and returns an object.
+b. No need to use new.
+c. You can customize the object’s behavior and properties inside the factory.
+d. It's useful for encapsulating object creation logic.
+
+Example:
+
+function createRectangle(length1, breadth1){
+	return rectangle = {
+		length : length1, breadth : breadth1 , draw: function () {
+			console.log('dd');
+}
+};
+}
+
+let rectObject=createRectangle(4,3);
+
+2. Construction Function : In JavaScript, a constructor function is a special type of function used to create and initialize objects with shared properties and methods. When used with the new keyword, it acts as a blueprint for creating multiple instances of an object.
+
+Characteristics of Constructor Functions:
+
+a. Named with a capital letter by convention to differentiate from regular functions.
+b. Uses the new keyword to create an instance.
+c. Inside the function, the this keyword refers to the new object being created.
+d. There is no need for an explicit return statement; the object is automatically returned.
+
+Example:
+
+function Person(name, age) {
+    this.name = name;
+    this.age = age;
+
+    this.greet = function() {
+        console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`);
+    };
+}
+
+// Using the 'new' keyword to create instances
+const person1 = new Person('Alice', 25);
+const person2 = new Person('Bob', 30);
+
+person1.greet();  // Output: Hello, my name is Alice and I am 25 years old.
+person2.greet();  // Output: Hello, my name is Bob and I am 30 years old.
+
+
+
+Factory Functions: Use factory functions when you need more flexibility, such as creating private variables, multiple object types, or avoiding this issues.
+
+Constructor Functions: Use these if you're working with legacy JavaScript code or prefer the traditional JavaScript object creation method.
+
+**Functions are OBJECTS.
+
+Types in JS: 1. Primitive or Value types (Number , string , Boolean, undefined, Null)
+	     2. Reference type or Object typec(fucntions, objects , Arrays)
+
+
+
+Object Cloning:
+1. Iteration
+	ex: 
+		let src ={value1 : 10, value2: 32};
+		let dest={};
+		for(let key in src) {
+			dest[key]=src[key];  // clone completed
+		}
+
+		
+2. Assign
+	let dest=Object.assign({},src);  // we can use multiplse src objects to clone in single dest object
+   
+3. Spread
+
+   let dest={...src};
+
+
+
+Arrays:
+
+	push() -> insert at end
+	unshift -> insert at first
+	splice() -> insert at middle
+	pop() -> delete from end
+	shift -> delete from start
+	slice() ->  used to extract a shallow copy of a portion 
+	indexOf()/include() -> searching
+
+
+Arrow function : An arrow function in JavaScript is a shorter syntax for writing functions. It was introduced in ES6 (ECMAScript 2015) and is often used because of its compact form. It also has some unique behavior, especially when it comes to handling the this keyword.
+
+const add = (a, b) => a + b;
+console.log(add(2, 3)); // 5
+
+
+
+
+
