@@ -14,7 +14,7 @@ I'm Harshit Tiwari, a passionate Java Developer with experience in full-stack de
 - Collaborating on **open-source healthcare projects**  
 
 ## How to reach me
-- LinkedIn: [Harshit Tiwari](https://www.linkedin.com/in/harshit-tiwari)
+- LinkedIn: [Harshit Tiwari](https://www.linkedin.com/in/harshit-tiwari-0314561b5)
 - GitHub: [@harshit771](https://github.com/harshit771)
 
 
