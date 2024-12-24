@@ -17,7 +17,6 @@ I'm Harshit Tiwari, a passionate Java Developer with experience in full-stack de
 - LinkedIn: [Harshit Tiwari](https://www.linkedin.com/in/harshit-tiwari)
 - GitHub: [@harshit771](https://github.com/harshit771)
 
-## Fun fact
 
 
 
