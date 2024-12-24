@@ -1,6 +1,23 @@
-## About Me 👋
+# Hi there 👋
+I'm Harshit Tiwari, a passionate Java Developer with experience in full-stack development. Currently working on healthcare applications and exploring advanced Spring Boot functionalities.
 
-I'm a Java Developer with 2.5 years of experience specializing in building and maintaining healthcare applications. I have hands-on expertise in Java, Spring Boot, Hibernate, RESTful APIs, and MySQL/Oracle databases. I thrive in agile environments, delivering stable, high-quality code and implementing complex business rules to meet client needs.
+## I love working with
+![Java](https://img.shields.io/badge/Java-8-blue) ![Spring](https://img.shields.io/badge/Spring%20Boot-6db33f?style=flat&logo=spring&logoColor=white) ![Hibernate](https://img.shields.io/badge/Hibernate-4f4e53?style=flat&logo=hibernate&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-00758f?style=flat&logo=mysql&logoColor=white)
 
-I am currently working on healthcare-based applications, including the New Hampshire MMIS Health Enterprise Portal, where I focus on enhancing functionality, fixing defects, and improving application stability. I also enjoy exploring advanced topics in Spring Boot and constantly improving my skills through projects and learning.
+## I'm working on
+- Enhancing **Healthcare Claims Management System**  
+- Improving performance and security in **provider registration system**  
+
+
+## I’m looking for help with
+- **Integrating AI for automatic claim processing**  
+- Collaborating on **open-source healthcare projects**  
+
+## How to reach me
+- LinkedIn: [Harshit Tiwari](https://www.linkedin.com/in/harshit-tiwari)
+- GitHub: [@harshit771](https://github.com/harshit771)
+
+## Fun fact
+
+
 
