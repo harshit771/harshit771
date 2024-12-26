@@ -1,5 +1,14 @@
-# 💫 About Me:
-I have 2.5 years of experience. I am working in Infinite <br>computer solutions company where I am working NH MMIS <br>heathcare project where my role is to fix defect and enhencing <br>features and implementing new feature as per client requirements<br><br>I am working on Java, hibernate ,JSF ,JSP ,HTML ,CSS, JavaScript,<br>Portlets. Currently I am enhacing my skills like learning spring framework<br><br>
+## About Me
+👋 Hello, I'm Harshit Tiwari, a software developer with 2.5 years of experience specializing in Java-based technologies.
+
+🔹 Current Role:
+I am currently working at Infinite Computer Solutions, contributing to the NH MMIS Healthcare Project. My role involves:
+
+Fixing defects to ensure system stability.
+Implementing new features tailored to client requirements.
+
+🔹 Learning & Growth:
+I am actively enhancing my skills and currently focusing on mastering the Spring Framework to stay ahead in the ever-evolving tech landscape.
 
 
 ## 🌐 Socials:
